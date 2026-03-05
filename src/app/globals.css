@@ -11,6 +11,21 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
 }
 
+/* Twemoji - render emoji as images */
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+  display: inline-block;
+}
+
+/* Larger emoji in specific contexts */
+.text-2xl img.emoji { height: 1.2em; width: 1.2em; }
+.text-3xl img.emoji { height: 1.4em; width: 1.4em; }
+.text-4xl img.emoji { height: 1.6em; width: 1.6em; }
+.text-5xl img.emoji { height: 1.8em; width: 1.8em; }
+
 /* XP bar animation */
 @keyframes xp-fill {
   from { width: 0%; }
