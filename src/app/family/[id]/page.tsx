@@ -280,7 +280,7 @@ export default function FamilyPage() {
 
       <div className="flex-1 flex max-w-4xl mx-auto w-full">
         {/* Sidebar - child selector */}
-        <aside className={`${mobileMenuOpen ? "block" : "hidden"} md:block w-full md:w-56 bg-zinc-900/50 border-r border-zinc-800 p-3 flex-shrink-0 fixed md:relative inset-0 top-[60px] z-40 md:z-auto`}>
+        <aside className={`${mobileMenuOpen ? "block" : "hidden"} md:block w-full md:w-56 bg-zinc-900 border-r border-zinc-800 p-3 flex-shrink-0 fixed md:relative inset-0 top-[60px] z-40 md:z-auto`}>
           <div className="space-y-2 mb-4">
             <h3 className="text-xs uppercase text-zinc-500 font-semibold tracking-wider px-2">
               Adventurers
